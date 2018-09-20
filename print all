@@ -1,0 +1,53 @@
+dl311@soetcse:~$ subl
+dl311@soetcse:~$ ls
+Desktop    Downloads         Music     Public     Videos
+Documents  examples.desktop  Pictures  Templates
+dl311@soetcse:~$ mkdir nameeth
+dl311@soetcse:~$ cd nameeth
+dl311@soetcse:~/nameeth$ 
+dl311@soetcse:~/nameeth$ subl
+dl311@soetcse:~/nameeth$ nameeth209.py
+nameeth209.py: command not found
+dl311@soetcse:~/nameeth$ nam209
+nam209: command not found
+dl311@soetcse:~/nameeth$ nam209.py
+nam209.py: command not found
+dl311@soetcse:~/nameeth$ python addi.py
+python: can't open file 'addi.py': [Errno 2] No such file or directory
+dl311@soetcse:~/nameeth$ python3 python addi.py
+python3: can't open file 'python': [Errno 2] No such file or directory
+dl311@soetcse:~/nameeth$ python3 addi.py
+enter value of a12
+enter value of b18
+1812
+dl311@soetcse:~/nameeth$ python
+Python 2.7.15rc1 (default, Apr 15 2018, 21:51:34) 
+[GCC 7.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=18
+>>> b=67
+>>> c=a-b
+>>> print(c)
+-49
+>>> print(c)
+-49
+>>> d=c+b
+>>> print(d)
+18
+>>> a=3
+>>> c=a-b
+>>> print(c)
+-64
+>>> c=a/b
+>>> print(c)
+0
+>>> c=b/a
+>>> print(c)
+22
+>>> c=d>a
+>>> print(c)
+True
+>>> 
+KeyboardInterrupt
+>>> 
+
