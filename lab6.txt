@@ -1,0 +1,54 @@
+def add():
+	a=31
+	b=12
+	c=a+b
+	print(c)
+add()
+#
+def add():
+	a=31
+	b=12
+	c=a+b
+	print(c)
+add()
+#
+def sub():
+	a=23
+	b=54
+	c=b-a
+	print(c)
+sub()	
+#
+def multiply():
+	a=3
+	b=34
+	c=a*b
+	print(c)
+multiply()	
+#
+def div():
+	a=56
+	b=12
+	c=a/b
+	print(c)
+div()	
+#
+def add(a,b):
+	return a+b
+
+def sub(a,b):
+	return a-b
+
+i=int(input("enter A"))
+j=int(input("enter B"))
+
+d=add(i,j)
+print("addition:",d)
+
+print("subraction",sub(i,j))	
+#
+games=['cricket','football','tennis']
+print(games[2])
+#
+students={1:'namratha',2:'nameeth',3:'maria'}
+print(students[2])
